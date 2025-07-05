@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result - HematoVision</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #333;
+        }
+        .result {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .btn-back {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .btn-back:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>🩸 HematoVision - Prediction Result</h1>
+    <p class="result">Predicted Class: <strong>{{ prediction }}</strong></p>
+    <a class="btn-back" href="/">⬅️ Back to Home</a>
+</body>
+</html>
